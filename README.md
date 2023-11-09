@@ -76,7 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-### Some tricks
+## Some tricks
 
 To run npx with a specific registry, use this command:
 

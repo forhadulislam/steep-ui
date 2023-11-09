@@ -20,9 +20,6 @@ function App() {
                 <Route path="/shop-category" element={<ShopCategory />} />
             </Routes>
         </Router>
-
-
-
     </div>
   );
 }

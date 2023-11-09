@@ -1,0 +1,13 @@
+.DS_STORE
+
+# ide
+.idea
+.vscode
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+
+# Dependencies
+/node_modules

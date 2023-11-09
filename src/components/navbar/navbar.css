@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px;
+}
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+.navbar_menu li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 4px;
+}
+.navbar_menu li.selected{
+    background: #f1f1f1;
+}

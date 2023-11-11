@@ -1,9 +1,12 @@
 import React from "react";
+import Hero from "../components/hero/hero";
+import Popular from "../components/popular/popular";
 
 const Shop = () => {
     return (
         <div className='shop'>
-            <h1>Shop</h1>
+            <Hero />
+            <Popular />
         </div>
     );
 }

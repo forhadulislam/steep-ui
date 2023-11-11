@@ -4,7 +4,7 @@ import React, {useState} from "react";
 const ShopCategory = () => {
     return (
         <div className='shop-category'>
-            <h1>ShopCategory</h1>
+            <h1>Shop Category</h1>
         </div>
     );
 }

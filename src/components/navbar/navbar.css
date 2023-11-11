@@ -29,3 +29,16 @@
     text-decoration: none;
     color: #000;
 }
+.navbar_sidebar{
+    display: flex;
+    align-items: center;
+}
+.navbar_sidebar button{
+    padding: 12px 25px;
+    border: none;
+    background: #7ebe02;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}

@@ -1,10 +1,11 @@
 import React, {useContext, useState} from "react";
 import "./css/shopCategory.css";
 import ShopContextProvider, {ShopContext} from "../context/context";
+import perfumeProducts from "../components/assets/perfumeProducts";
+import newCollections from "../components/assets/newCollections";
 
 const ShopCategory = (props) => {
-    const {all_products} = useContext(ShopContext);
-   //  console.log(ShopContextProvider.params)
+    const all_products = perfumeProducts.concat(newCollections);
     return (
         <div className='shop-category'>
             <img src={props.banner}  alt={""} height={"400px"}/>
@@ -21,7 +22,7 @@ const ShopCategory = (props) => {
                         all_products.map((item) => {
                             return (
                                 <div className='shop-category-products-item'>
-                                    <img src={item.image} alt={""} />
+                                    <img src={item.imageLink} alt={""} />
                                     <h3>{item.name}</h3>
                                     <p>{item.price}</p>
                                 </div>

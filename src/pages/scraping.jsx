@@ -29,13 +29,14 @@ function scrapeWebPage(webpage) {
             const parser = new DOMParser(),
             dom = parser.parseFromString(contents, "text/html");
 
-            // let myDivContent = dom.querySelector('meta[name="description"]');
             let Price = dom.querySelector('meta[property="product:sale_price:amount"]').content;
             let Currency = dom.querySelector('meta[property="product:sale_price:currency"]').content;
             let FormattedPrice = dom.querySelector('meta[name="twitter:data1"]').content;
 
             console.log(Price, Currency);
             console.log(FormattedPrice);
+
+            console.log(dom.scripts.item(5));
 
         })
         .catch(() => console.log("Can’t access response. Blocked by browser?"))

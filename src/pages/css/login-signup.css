@@ -39,3 +39,23 @@
     margin-top: 20px;
     width: 100%;
 }
+.login-signup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 500;
+}
+.login-signup-login span{
+    color: #f3621f;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login-signup-agree{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 500;
+}

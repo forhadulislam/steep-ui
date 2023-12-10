@@ -2,6 +2,7 @@
 const perfumeProducts = [
     {
         id: 1,
+        category: "men",
         name: "Chanel No. 5 Eau de Parfum Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/chanel/3145891255300_01-o/chanel-n5-eau-de-parfum-naisille___30.jpg",
         newPrice: 135,
@@ -10,6 +11,7 @@ const perfumeProducts = [
     },
     {
         id: 2,
+        category: "women",
         name: "Dior Sauvage Eau de Toilette Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/dior/3348901250146_21/dior-sauvage-eau-de-toilette-tuoksu-taytettava-miehille_.jpg",
         newPrice: 110,
@@ -18,6 +20,7 @@ const perfumeProducts = [
     },
     {
         id: 3,
+        category: "men",
         name: "Yves Saint Laurent Black Opium Eau de Parfum Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/yves-saint-laurent/yslblow_aedp30_02-o/yves-saint-laurent-black-opium-eau-de-parfum-naisille___17.jpg",
         newPrice: 95,
@@ -26,6 +29,7 @@ const perfumeProducts = [
     },
     {
         id: 4,
+        category: "women",
         name: "Lancôme La Vie Est Belle Eau de Parfum Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/lancome/3605533286555_01-o/lancome-la-vie-est-belle-eau-de-parfum-taytettava-naisille___24.jpg",
         newPrice: 80,
@@ -34,6 +38,7 @@ const perfumeProducts = [
     },
     {
         id: 5,
+        category: "men",
         name: "Gucci Bloom Eau de Parfum Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/gucci/8005610481005_02-o/gucci-bloom-eau-de-parfum-naisille___16.jpg",
         newPrice: 65,
@@ -42,6 +47,7 @@ const perfumeProducts = [
     },
     {
         id: 6,
+        category: "women",
         name: "Jean Paul Gaultier Le Male Eau de Toilette Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/jean-paul-gaultier/8435415032315_01-o/jean-paul-gaultier-le-male-le-parfum-eau-de-parfum-miehille_.jpg",
         newPrice: 50,
@@ -50,6 +56,7 @@ const perfumeProducts = [
     },
     {
         id: 7,
+        category: "men",
         name: "Versace Bright Crystal Eau de Toilette Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/versace/verbrcw_aedt10_02-o/versace-bright-crystal-eau-de-toilette-tuoksu-naisille___34.jpg",
         newPrice: 45,
@@ -58,6 +65,7 @@ const perfumeProducts = [
     },
     {
         id: 8,
+        category: "women",
         name: "Dolce & Gabbana Light Blue Eau de Toilette Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/dolce-gabbana/3423473020509_01-o/dolce-gabbana-light-blue-pour-homme-eau-de-toilette-tuoksu-miehille___26.jpg",
         newPrice: 40,
@@ -66,6 +74,7 @@ const perfumeProducts = [
     },
     {
         id: 9,
+        category: "men",
         name: "Paco Rabanne 1 Million Eau de Toilette Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/paco-rabanne/3349666007891m_01-o/paco-rabanne-1-million-eau-de-toilette-tuoksu-miehille___27.jpg",
         newPrice: 35,
@@ -74,6 +83,7 @@ const perfumeProducts = [
     },
     {
         id: 10,
+        category: "women",
         name: "Calvin Klein Eternity Eau de Parfum Spray",
         imageLink: "https://cdn.notinoimg.com/detail_zoom/calvin-klein/caketrm_aedt10_01-o/calvin-klein-eternity-for-men-eau-de-toilette-tuoksu-miehille___28.jpg",
         newPrice: 30,

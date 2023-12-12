@@ -8,13 +8,12 @@
   align-items: center;
 }
 .shop-category-indexsort-sort {
-  display: block;
+  display: flex;
   padding: 10px 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 .shop-category-indexsort p {
-  display: block;
   float: left;
   margin: 0 10px;
 }

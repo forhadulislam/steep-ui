@@ -1,0 +1,13 @@
+.product-item {
+  display: flex;
+  margin: 0 170px
+}
+.product-item-left {
+    display: flex;
+    gap: 17px;
+}
+.product-main-image{
+    width: 400px;
+    height: 400px;
+    object-fit: scale-down;
+}

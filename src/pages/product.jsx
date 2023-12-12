@@ -3,6 +3,7 @@ import perfumeProducts from "../components/assets/perfumeProducts";
 import newCollections from "../components/assets/newCollections";
 import {useParams} from "react-router-dom";
 import Breadcrumb from "../components/breadcrumb/breadcrumb";
+import ProductItem from "../components/productItem/productItem";
 
 
 const Product = () => {
@@ -12,6 +13,7 @@ const Product = () => {
     return (
         <div className='product'>
             <Breadcrumb product={product} />
+            <ProductItem product={product} />
         </div>
     );
 }
